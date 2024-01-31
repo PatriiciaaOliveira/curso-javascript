@@ -17,5 +17,12 @@ strong{
 
 }
 .apresentacao__conteudo{
+    width: 615px;
+
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+}
+.apresentacao__conteudo__texto{
     
 }
