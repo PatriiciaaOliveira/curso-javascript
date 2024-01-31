@@ -32,6 +32,7 @@ strong{
 }
 .apresentacao__conteudo__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 
 }
