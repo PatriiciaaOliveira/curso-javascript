@@ -3,6 +3,7 @@ body{
     box-sizing: border-box;
     background-color: rgb(165, 92, 92);
     color: white;
+    margin: auto;
 
 
 }
@@ -11,11 +12,13 @@ strong{
     text-align: center;
 }
 .apresentacao{
-    margin: 10% 15;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    width: 500px;
+    border-radius: 10px;
 }
 
 
@@ -25,6 +28,7 @@ strong{
     flex-direction: column;
     gap: 36px;
     text-align: center;
+    margin: auto;
 }
 
 
@@ -75,11 +79,11 @@ strong{
 .apresentacao__links__links{
     /*background-color: #22d4fd;*/
     justify-content: center;
-    gap: ;
+    gap: 32px;
     border: 2px solid #521b1b;
     width: 378px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 24px;
     font-weight: 600;
     padding: 21,5px 0;
