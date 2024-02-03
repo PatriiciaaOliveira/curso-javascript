@@ -28,20 +28,22 @@ strong{
     flex-direction: column;
     gap: 36px;
     text-align: center;
-    margin: auto;
+    font-style: italic;
+    
 }
 
 
 .apresentacao__conteudo__titulo{
     font-size: 70px;
     text-align: center;
+    box-shadow: 5px 5px 10px rgb(32, 21, 21);
 }
 .titulo {
     font-size: 200px;
     text-align: center;
     font-family:Georgia;
     color: rgb(102, 21, 21);
-   
+   font-style: italic;
 
 }
 
@@ -49,6 +51,7 @@ strong{
     font-size: 50px;
     justify-content: space-between;
     font-family:Georgia;
+    font-style: italic;
     
 }
 .apresentacao__conteudo__texto{
