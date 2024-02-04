@@ -19,6 +19,7 @@ strong{
     text-align: center;
     width: 500px;
     border-radius: 10px;
+    text-shadow: #5f2727;
 }
 
 
@@ -30,6 +31,7 @@ strong{
     text-align: center;
     font-style: italic;
     
+    
 }
 
 
@@ -38,22 +40,7 @@ strong{
     text-align: center;
     box-shadow: 5px 5px 10px rgb(32, 21, 21);
 }
-.titulo {
-    font-size: 200px;
-    text-align: center;
-    font-family:Georgia;
-    color: rgb(102, 21, 21);
-   font-style: italic;
 
-}
-
-.subtitulo{
-    font-size: 50px;
-    justify-content: space-between;
-    font-family:Georgia;
-    font-style: italic;
-    
-}
 .apresentacao__conteudo__texto{
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
