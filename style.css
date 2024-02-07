@@ -30,6 +30,7 @@ strong{
     gap: 36px;
     text-align: center;
     font-style: italic;
+   
     
     
 }
@@ -37,6 +38,7 @@ strong{
 
 .apresentacao__conteudo__titulo{
     font-size: 70px;
+    font-style: italic;
     text-align: center;
     box-shadow: 5px 5px 10px rgb(32, 21, 21);
 }
