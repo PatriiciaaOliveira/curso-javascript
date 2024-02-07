@@ -1,11 +1,12 @@
+
+
 body{
     height: 100vh;
     box-sizing: border-box;
     background-color: rgb(165, 92, 92);
     color: white;
     margin: auto;
-
-
+    
 }
 strong{
     color: #490303;
@@ -20,6 +21,7 @@ strong{
     width: 500px;
     border-radius: 10px;
     text-shadow: #5f2727;
+   
 }
 
 
@@ -31,8 +33,6 @@ strong{
     text-align: center;
     font-style: italic;
    
-    
-    
 }
 
 
@@ -83,4 +83,12 @@ strong{
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
 
+}
+.rodape{
+    padding: 20px;
+    color:#521b1b ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
