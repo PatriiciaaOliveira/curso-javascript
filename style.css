@@ -1,5 +1,4 @@
 
-
 body{
     height: 100vh;
     box-sizing: border-box;
@@ -12,6 +11,23 @@ strong{
     color: #490303;
     text-align: center;
 }
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80%;
+
+}
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #f6f6f6;
+
+}
+
 .apresentacao{
     margin: auto;
     display: flex;
@@ -21,7 +37,6 @@ strong{
     width: 500px;
     border-radius: 10px;
     text-shadow: #5f2727;
-   
 }
 
 
@@ -49,7 +64,7 @@ strong{
     text-align: center;
 }
 
-.div id="foto"{
+.div id#foto{
     
     
 }
