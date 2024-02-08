@@ -1,2 +1,2 @@
-# curso-javascript
+# curso-projetonovo
  curso de javascript
