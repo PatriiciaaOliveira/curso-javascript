@@ -1,62 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body{
-    height: 100vh;
-    box-sizing: border-box;
+
     background-color: rgb(165, 92, 92);
-    color: white;
-    margin: auto;
-    
+    color: rgb(82, 3, 3);
+    height: 100vh;
+    box-sizing: border-box; 
 }
+
+header{
+    background-color: rgb(151, 46, 34);
+    min-height: 100px;
+    text-align: center;
+    padding: 20%;
+    margin-bottom: 20px;
+}
+
 strong{
-    color: #490303;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #7c0d0d;
     text-align: center;
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 0%;
+    height: 2px;
+   
+    
 }
 .cabecalho__menu{
+    background-color: #b65757;
+    padding: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.637);
     display: flex;
-    gap: 80%;
+    color: white;
 
 }
 .cabecalho__menu__link{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 600;
-    color: #f6f6f6;
+    /*font-weight: 800;*/
+    
 
 }
 
 .apresentacao{
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
-    display: flex;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    /*display: flex;
     width: 500px;
     border-radius: 10px;
-    text-shadow: #5f2727;
+    text-shadow: #5f2727;*/
     
 }
 
 
 .apresentacao__conteudo{
-    width: 800px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 36px;
     text-align: center;
     font-style: italic;
+    color: black;
    
 }
 
 
 .apresentacao__conteudo__titulo{
-    font-size: 70px;
+    font-size: 50px;
     font-style: italic;
     text-align: center;
-    box-shadow: 5px 5px 10px rgb(32, 21, 21);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 .apresentacao__conteudo__texto{
@@ -65,9 +100,8 @@ strong{
     text-align: center;
 }
 
-.id#foto{
-    
-    
+main img{
+    width: 65%
     
 }
 
@@ -95,22 +129,27 @@ strong{
     font-weight: 600;
     padding: 21,5px 0;
     text-decoration: none;
-    color: #f6f6f6;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 
 
 }
 .rodape{
     padding: 20px;
-    color:#521b1b ;
+    color:#410303 ;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
 .apresentacao__sobre{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #f6f6f6;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
