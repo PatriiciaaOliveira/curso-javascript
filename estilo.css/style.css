@@ -7,6 +7,7 @@ body{
 
     background-color: rgb(165, 92, 92);
     color: rgb(82, 3, 3);
+    text-align: auto;
     height: 100vh;
     box-sizing: border-box; 
 }
@@ -21,11 +22,14 @@ header{
 
 strong{
     font-family: 'Montserrat', sans-serif;
+    font-style: italic;
     font-size: 36px;
     font-weight: bolder;
     color: #7c0d0d;
     text-align: center;
+    
 }
+
 
 .cabecalho{
     padding: 2% 0% 0% 0%;
@@ -41,6 +45,7 @@ strong{
     color: white;
 
 }
+
 .cabecalho__menu__link{
     color: white;
     padding: 10px;
@@ -53,6 +58,10 @@ strong{
     /*font-weight: 800;*/
     
 
+}
+.cabecalho__menu__link:hover{
+    text-decoration: underline;
+    color: rgb(252, 103, 172);
 }
 
 .apresentacao{
@@ -77,11 +86,11 @@ strong{
 
 
 .apresentacao__conteudo{
-    width: 600px;
+    /*width: 600px;
     display: flex;
     flex-direction: column;
-    gap: 36px;
-    text-align: center;
+    gap: 36px;*/
+    text-align: auto;
     font-style: italic;
     color: black;
    
@@ -91,13 +100,14 @@ strong{
 .apresentacao__conteudo__titulo{
     font-size: 50px;
     font-style: italic;
-    text-align: center;
+    text-align: auto;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 .apresentacao__conteudo__texto{
     margin: 15px 0px;
     text-align: justify;
+    text-align: auto;
     text-indent: 30px;
     font-size: 25px;
     line-height: 2em;
@@ -145,15 +155,44 @@ main img{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.637);
 }
 .apresentacao__sobre{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 30px;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px black;
+    background-color: rgb(165, 92, 92);
+    box-shadow: 5px 5px 10px black;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
+    
+}
+
+.apresentacao__sobre{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    
+}
+
+.apresentacao__conteudo__titulo{
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
+}
+
+
+.apresentacao__sobre__texto{
+    margin: 15px 0px;
+    text-indent: 30px;
+    font-size: 23px;
+    line-height: 2em;
+    color: white;
+
 
 }
