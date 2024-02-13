@@ -22,6 +22,7 @@ header{
 strong{
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
+    font-weight: bolder;
     color: #7c0d0d;
     text-align: center;
 }
@@ -95,13 +96,16 @@ strong{
 }
 
 .apresentacao__conteudo__texto{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    line-height: 2em;
+    
 }
 
 main img{
-    width: 65%
+    max-width: 350px;
     
 }
 
