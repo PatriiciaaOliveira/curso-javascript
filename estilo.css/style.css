@@ -18,6 +18,7 @@ header{
     text-align: center;
     padding: 20%;
     margin-bottom: 20px;
+    
 }
 
 strong{
@@ -116,6 +117,7 @@ strong{
 
 main img{
     max-width: 350px;
+    margin: 15px 0px;
     
 }
 
@@ -128,11 +130,12 @@ main img{
     justify-content: space-between;
     text-align: center;
     gap: 32px;
+   
 }
 
 
 .apresentacao__links__links{
-    /*background-color: #22d4fd;*/
+    background-color: #69e3f8c5;
     justify-content: center;
     gap: 32px;
     border: 2px solid #521b1b;
@@ -147,6 +150,10 @@ main img{
     font-family: 'Montserrat', sans-serif;
 
 
+}
+.apresentacao__links__links:hover{
+    text-decoration: underline;
+    color: rgb(101, 12, 245);
 }
 .rodape{
     color:rgb(15, 15, 15);
@@ -189,10 +196,10 @@ main img{
 
 .apresentacao__sobre__texto{
     margin: 15px 0px;
+    text-align: justify;
     text-indent: 30px;
     font-size: 23px;
     line-height: 2em;
     color: white;
-
 
 }
